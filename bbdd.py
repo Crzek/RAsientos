@@ -13,8 +13,8 @@ from seient import Seient
 #Definicion clase BBDD, Esta nos permitira realizar consulta sql, en la cual podremoas obtener vuelos, asientos, etc..
 class BBDD:
     #modifiqueu usuari i contrasenya pel que correspongui
-    usuari = "IA_BD_201909_304"
-    contrasenya = "IA_BD_201909_304"
+    usuari = "your id"
+    contrasenya = "your password"
     conn = None
 
     def obreConnexio(self): #permite conectarnos con el oracle
